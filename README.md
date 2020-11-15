@@ -37,3 +37,25 @@ pushする
 pull request
 
 ------------------------
+ブランチでの作業
+
+cd c:\git/{repo name}
+git config user.name 'name'
+git config user.email '@gmail.com'
+
+git checkout
+git pull
+
+working...
+
+git add .
+git commit -m 'message'
+
+git push
+
+-----------------------
+ブランチのマージ
+
+git checkout main
+git merge sub
+git push
